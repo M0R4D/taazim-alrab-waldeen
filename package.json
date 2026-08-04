@@ -1,0 +1,18 @@
+{
+  "name": "campaign-poster-taazim",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "مولّد بوسترات حملة #تعظيم_الرب_والدين بمقاس 4x3 متر",
+  "scripts": {
+    "build": "node build.js",
+    "figures": "node preview-figures.js",
+    "sheet": "node contact-sheet.js"
+  },
+  "dependencies": {
+    "@fontsource/amiri": "^5.3.0",
+    "@fontsource/cairo": "^5.3.0",
+    "@fontsource/reem-kufi": "^5.3.0",
+    "puppeteer-core": "^24.43.1"
+  }
+}

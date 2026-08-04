@@ -1,0 +1,9 @@
+node_modules/
+
+# مُولَّد من @fontsource عند البناء
+fonts/
+
+# مخرجات وسيطة ومخرجات التخطيط القديم
+output/_archive/
+output/_render/
+_build.log
